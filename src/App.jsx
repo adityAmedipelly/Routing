@@ -4,7 +4,6 @@ import { BrowserRouter,Routes,Route, Link } from 'react-router-dom'
 
 function App() {
   return  <div>
-    {/* Allen |  class 12 | class 13 */}
   
 
     <BrowserRouter>
