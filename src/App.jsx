@@ -14,10 +14,10 @@ function App() {
    <Link to='/neet/online-coaching-class-12'> Class12 </Link>
 
     <Routes>
-      <Route  path='/neet/online-coaching-class-11' element={<Class11program/>}/>
-      <Route  path='/neet/online-coaching-class-12' element={<Class12program/>}/>
-      <Route  path='/' element={<Landing/>}/>
-      <Route  path="*" element={<Errorpage/>}/>
+      <Route  path='/neet/online-coaching-class-11' element = {<Class11program/>}/>
+      <Route  path='/neet/online-coaching-class-12' element = {<Class12program/>}/>
+      <Route  path='/' element = {<Landing/>}/>
+      <Route  path="*" element = {<Errorpage/>}/>
     </Routes>
     </BrowserRouter>
     </div>
@@ -37,13 +37,13 @@ function Landing(){
 
 function Class11program(){
   return <div>
-    NEET  Calls 11 program details
+    NEET  Calls 11 program details event
   </div>
 }
 
 function Class12program(){
   return <div>
-    NEET  Calls 12 program details
+    NEET  Calls 12 program details event 
   </div>
 }
 export default App
